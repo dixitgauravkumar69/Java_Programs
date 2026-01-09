@@ -13,18 +13,18 @@ public class Bank {
         int action=sc.nextInt();
 
 
-        Bankaccount Kunal=new Bankaccount();
+        Bankaccount Gaurav=new Bankaccount();
 
         switch(action)
         {
             case 1:
-                Kunal.deposit();
+                Gaurav.deposit();
                 break;
             case 2:
-                Kunal.withdraw();
+                Gaurav.withdraw();
                 break;
             case 3:
-                Kunal.view_Statement();
+                Gaurav.view_Statement();
                 break;
             default:
                 System.out.println("Choose correct Option");
